@@ -1,0 +1,30 @@
+.banner-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #e7e3e0;
+}
+
+.banner-titles {
+  width: 50%;
+  margin-inline: 100px;
+}
+
+.banner-titles h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner-titles p {
+  font-size: 30px;
+}
+
+.banner-container img {
+  width: 50%;
+}
+
+.banner-animation {
+    display: flex;
+    justify-content: center;
+}
