@@ -1,0 +1,11 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf) format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "RobotoRegular";
+}
