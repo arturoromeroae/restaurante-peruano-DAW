@@ -28,3 +28,12 @@
     display: flex;
     justify-content: center;
 }
+
+.banner-logo {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.banner-logo img {
+  width: 30%;
+}
