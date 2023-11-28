@@ -6,11 +6,11 @@ import { RegisterComponent } from './pages/register/register.component';
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: 'home',
+        redirectTo: '',
         pathMatch: 'full'
     },
     {
-        path: 'home',
+        path: '',
         component: AppComponent
     },
     {
@@ -22,3 +22,4 @@ export const routes: Routes = [
         component: RegisterComponent
     }
 ];
+
