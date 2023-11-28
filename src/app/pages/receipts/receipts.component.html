@@ -1,0 +1,38 @@
+<div class="fila-agregar">
+    <button class="agregar-boton" (click)="agregarProducto()">Agregar</button>
+
+</div>
+<table>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Departamento</th>
+        <th>Imagen</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let prod of productos$ | async as listProd">
+        <td>{{prod.nombre}}</td>
+        <td>{{prod.precio}}</td>
+        <td>{{prod.departamento}}</td>
+        <td style="max-width: 200px; text-wrap: wrap; word-break: break-all;">{{prod.imagen}}</td>
+        <td style="width: 100px;">
+            <a (click)="editarProducto(prod.id)" class="agregar-boton" style="margin-right: 5px;">
+                <i class="fa fa-pencil"></i>
+            </a>
+            <a (click)="eliminarProducto(prod.id)" class="eliminar-boton">
+                <i class="fa fa-trash"></i>
+            </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="modal-overlay" id="modal-overlay" [ngClass]="{'active': isModal}">
+    <div class="modal" id="modal" [ngClass]="{'active': isModal}">
+      <h2>{{productSelectedId ? 'Editar' : 'Agregar'}} Receta</h2>
+      <app-receipt-detail *ngIf="isModal" (onClose)="seGuardo($event)" [productId]="productSelectedId"></app-receipt-detail>
+    </div>
+  </div>
