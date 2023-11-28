@@ -25,3 +25,12 @@
 .footer-menu ul li {
     margin: 20px;
 }
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-menu ul li a:hover {
+    color: red;
+}
