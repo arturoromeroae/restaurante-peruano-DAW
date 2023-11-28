@@ -1,0 +1,17 @@
+<form [formGroup]="formularioProducto">
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" formControlName="nombre">
+  
+    <label for="precio">Precio:</label>
+    <input id="precio" formControlName="precio">
+  
+    <label for="departamento">Departamento:</label>
+    <input id="departamento" formControlName="departamento">
+
+    <label for="image">Imagen:</label>
+    <input id="image" formControlName="imagen">
+  
+    <button type="button" (click)="agregarProducto()" style="margin-right: 5px;">Guardar Producto</button>
+    <button type="button" (click)="cerrar()" style="background-color: #e74c3c;">Cerrar</button>
+  </form>
+  
