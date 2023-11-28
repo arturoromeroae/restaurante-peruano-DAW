@@ -1,0 +1,36 @@
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.432);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    width: 50%;
+}
+
+.footer-social i {
+    padding: 10px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    margin-right: 200px;
+}
+
+.footer-menu ul li {
+    margin: 20px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-menu ul li a:hover {
+    color: red;
+}

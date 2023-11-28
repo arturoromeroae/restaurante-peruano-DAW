@@ -68,3 +68,36 @@
 .recipe-review i {
     color: red;
 }
+
+.sobre-nosotros {
+    background-color: rgba(255, 0, 0, 0.397);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.nosotros-info {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.icon-container {
+    width: 40%;
+}
+
+.content-container {
+    width: 60%;
+}
+
+.content-container h3 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+}
+
+.content-container p {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
