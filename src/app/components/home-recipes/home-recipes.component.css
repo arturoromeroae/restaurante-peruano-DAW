@@ -1,0 +1,20 @@
+.recipes-container h3 {
+    font-size: 25px;
+    margin-left: 100px;
+    color: #524f4d;
+    text-transform: uppercase;
+}
+
+.recipes-popular {
+    display: flex;
+    text-align: center;
+}
+
+.recipe-item img {
+    width: 50%;
+    border-radius: 100px;
+}
+
+.recipe-item p {
+    font-weight: bold;
+}

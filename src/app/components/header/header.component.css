@@ -24,4 +24,12 @@
     padding: 10px;
     text-decoration: none;
     color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.header-button a:hover {
+    background-color: red;
+    border-radius: 30px;
+    transition: all 0.5s;
 }
